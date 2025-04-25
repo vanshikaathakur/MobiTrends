@@ -71,7 +71,7 @@ Created an interactive dashboard with filters and multiple charts, including:
 Feel free to connect if you have any suggestions or questions!
 
 - 📧 Email: vanshikathakur1724@gmail.com
-- 🔗 LinkedIn: [Vanshika Thakur](linkedin.com/in/vanshika-thakur-b60128288/)
+- 🔗 LinkedIn: (linkedin.com/in/vanshika-thakur-b60128288/)
 
 ---
 
