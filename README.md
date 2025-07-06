@@ -1,4 +1,5 @@
 📱 Mobile Market Trends Analysis (2025)
+
 This project aims to analyze the mobile phone market trends across various regions using a dataset of smartphones launched globally. The analysis focuses on price, features, brand trends, and regional variations, with in-depth insights visualized using both Python (Jupyter Notebook) and Power BI.
 
 🧾 Project Description
