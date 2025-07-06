@@ -1,77 +1,103 @@
-# 📊 Mobile Market Insights
+📱 Mobile Market Trends Analysis (2025)
+This project aims to analyze the mobile phone market trends across various regions using a dataset of smartphones launched globally. The analysis focuses on price, features, brand trends, and regional variations, with in-depth insights visualized using both Python (Jupyter Notebook) and Power BI.
 
-This project provides a comprehensive analysis of the mobile phone market using data wrangling in Python and interactive data visualization in Power BI. It highlights trends in mobile phone launches, pricing, specifications, and brand-wise market performance across different countries.
+🧾 Project Description
+In this project:
 
-## 🚀 Project Overview
+Raw data from an Excel sheet was cleaned and preprocessed using Pandas and NumPy.
 
-The goal of this project is to extract meaningful insights from a raw dataset of mobile phones launched in 2025 and present those insights using a professional dashboard. The project is divided into two main phases:
+Unwanted characters and data inconsistencies were handled (e.g., "mAh", "inches", "₹", etc.).
 
-1. **Data Cleaning & Preparation** — Done using Python (Pandas) in Jupyter Notebook.
-2. **Data Visualization** — Built using Microsoft Power BI.
+Outliers were detected and managed to maintain data integrity.
 
----
+Exploratory Data Analysis (EDA) was conducted using Matplotlib and Seaborn.
 
-## 📂 Project Structure
+Regional price comparison and feature-based analysis were performed.
 
-### 🔧 Data Cleaning (Python)
+A complete interactive Power BI dashboard was created for deeper business insights and data storytelling.
 
-Performed in Jupyter Notebook using `pandas`. Key steps included:
+📂 Dataset Features
+The dataset contains smartphone specifications and pricing in various countries:
 
-- Reading the Excel dataset using `pd.read_excel()`
-- Handling inconsistent formats (e.g., currency values like PKR, INR, USD, CNY, AED)
-- Splitting/normalizing fields like RAM, Camera specs, and Launch Year
-- Preparing cleaned data for import into Power BI
+📦 Company Name, Model Name
 
-> 📎 File: `AnalyticsProject1.ipynb`
+⚙️ RAM, Processor, Battery Capacity
 
-### 📊 Data Visualization (Power BI)
+📸 Front and Back Camera
 
-Created an interactive dashboard with filters and multiple charts, including:
+📱 Screen Size, Mobile Weight
 
-- **Total Models Launched** (KPI tiles)
-- **Launched Price by Country**
-- **Brand-wise Revenue Tree Map**
-- **Count of Models by RAM and Company**
-- **Trend Analysis Over Time**
-- **Sankey Diagram** showing relationships between Company, Model, RAM, Battery, and Screen Size
+🌎 Launched Price in:
 
-> 📎 Power BI File: `power bi new project.pbix`
+India
 
+Pakistan
 
----
+China
 
-## 🛠️ Tools & Technologies
+USA
 
-- **Python** (Pandas, Jupyter Notebook)
-- **Power BI** (Data Visualization)
-- **Excel** (Data Source)
-- **Power Query** (Data Transformation in Power BI)
+Dubai
 
----
+📅 Launched Year
 
-## 📈 Insights Uncovered
+🔧 Technologies Used
+Python Libraries: pandas, numpy, matplotlib, seaborn
 
-- Apple and Samsung dominated total revenue.
-- Indian market shows competitive pricing among all brands.
-- RAM size and battery capacity strongly correlate with higher launch prices.
-- Year-over-year growth visualized for multiple countries.
+Jupyter Notebook: For data cleaning and EDA
 
----
+Power BI: For creating an interactive dashboard
 
-## 📌 How to Run
+Excel: Initial dataset formatting
 
-1. Clone the repository
-2. Open `AnalyticsProject1.ipynb` in Jupyter and run all cells to understand preprocessing
-3. Open the `.pbix` file in Power BI Desktop to explore the dashboard
+📊 Key Analyses Performed
+In Jupyter Notebook:
+Average Price Analysis by Region and Year
 
----
+Feature vs Price Analysis (e.g., RAM vs Price, Camera vs Price)
 
-## 📬 Contact
+Top 10 Most Expensive Models across markets
 
-Feel free to connect if you have any suggestions or questions!
+Outlier Management for more accurate trend detection
 
-- 📧 Email: vanshikathakur1724@gmail.com
-- 🔗 LinkedIn: linkedin.com/in/vanshika-thakur-b60128288/
+In Power BI:
+📈 Total Models Launched
 
----
+💸 Country-wise Revenue Trends
 
+🧠 Brand-wise Total Revenue TreeMap
+
+🔄 Trend Comparison over time by RAM, Brand, and Launch Year
+
+📌 How to Run
+Jupyter Notebook:
+pip install pandas numpy matplotlib seaborn openpyxl
+Open Analytics_Project1.ipynb
+
+Run the cells to reproduce data cleaning and visualizations
+
+Power BI:
+Open Mobile Market Insights.pbix in Power BI Desktop
+
+Interact with filters (Company Name, Launch Year) to explore the dashboard
+
+📥 Files Included
+Analytics_Project1.ipynb – Data Cleaning and EDA in Python
+
+Mobiles Dataset (2025).xlsx – Raw mobile data
+
+Mobile Market Insights.pbix – Power BI Dashboard
+
+README.md – Project documentation
+
+📚 Learnings
+Cleaned and structured messy Excel data for analysis
+
+Learned how pricing varies with features like RAM, camera, and battery
+
+Applied feature engineering and grouped analysis
+
+Gained hands-on experience with real-time dashboards using Power BI
+
+📌 Author
+Vanshika Thakur
