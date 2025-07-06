@@ -1,4 +1,4 @@
-# 📊 Mobile Market Insights Dashboard
+# 📊 Mobile Market Insights
 
 This project provides a comprehensive analysis of the mobile phone market using data wrangling in Python and interactive data visualization in Power BI. It highlights trends in mobile phone launches, pricing, specifications, and brand-wise market performance across different countries.
 
